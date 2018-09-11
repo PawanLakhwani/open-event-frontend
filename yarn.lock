@@ -3661,11 +3661,12 @@ elliptic@^6.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
 
-ember-ajax@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/ember-ajax/-/ember-ajax-3.1.0.tgz#3db36e67357ef447639517656aeac4bb13e73a9c"
+ember-ajax@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/ember-ajax/-/ember-ajax-3.1.1.tgz#dcb55aaf1a9fe8b2ce04206863384709ebc2358b"
   dependencies:
-    ember-cli-babel "^6.6.0"
+    ember-cli-babel "^6.16.0"
+    najax "^1.0.3"
 
 ember-app-scheduler@^1.0.1:
   version "1.0.1"
@@ -3723,7 +3724,7 @@ ember-cli-autoprefixer@0.8.1:
     broccoli-autoprefixer "^5.0.0"
     lodash "^4.0.0"
 
-ember-cli-babel@6.12.0, ember-cli-babel@^5.0.0, ember-cli-babel@^5.1.5, ember-cli-babel@^5.1.6, ember-cli-babel@^5.1.7, ember-cli-babel@^5.2.4, ember-cli-babel@^6.0.0, ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6.1.0, ember-cli-babel@^6.10.0, ember-cli-babel@^6.11.0, ember-cli-babel@^6.14.1, ember-cli-babel@^6.3.0, ember-cli-babel@^6.6.0, ember-cli-babel@^6.7.2, ember-cli-babel@^6.8.0, ember-cli-babel@^6.8.1, ember-cli-babel@^6.8.2, ember-cli-babel@^6.9.0, ember-cli-babel@^7.1.0:
+ember-cli-babel@6.12.0, ember-cli-babel@^5.0.0, ember-cli-babel@^5.1.5, ember-cli-babel@^5.1.6, ember-cli-babel@^5.1.7, ember-cli-babel@^5.2.4, ember-cli-babel@^6.0.0, ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6.1.0, ember-cli-babel@^6.10.0, ember-cli-babel@^6.11.0, ember-cli-babel@^6.14.1, ember-cli-babel@^6.16.0, ember-cli-babel@^6.3.0, ember-cli-babel@^6.6.0, ember-cli-babel@^6.7.2, ember-cli-babel@^6.8.0, ember-cli-babel@^6.8.1, ember-cli-babel@^6.8.2, ember-cli-babel@^6.9.0, ember-cli-babel@^7.1.0:
   version "6.14.1"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-6.14.1.tgz#796339229035910b625593caffbc2683792ada68"
   dependencies:
@@ -3739,27 +3740,6 @@ ember-cli-babel@6.12.0, ember-cli-babel@^5.0.0, ember-cli-babel@^5.1.5, ember-cl
     broccoli-source "^1.1.0"
     clone "^2.0.0"
     ember-cli-version-checker "^2.1.2"
-    semver "^5.5.0"
-
-ember-cli-babel@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.1.0.tgz#6517e247e8408f94b825bf41ea41ea32273ac299"
-  dependencies:
-    "@babel/core" "^7.0.0"
-    "@babel/plugin-transform-modules-amd" "^7.0.0"
-    "@babel/polyfill" "^7.0.0"
-    "@babel/preset-env" "^7.0.0"
-    amd-name-resolver "1.2.0"
-    babel-plugin-debug-macros "^0.2.0-beta.6"
-    babel-plugin-ember-modules-api-polyfill "^2.3.2"
-    babel-plugin-module-resolver "^3.1.1"
-    broccoli-babel-transpiler "^7.0.0"
-    broccoli-debug "^0.6.4"
-    broccoli-funnel "^2.0.1"
-    broccoli-source "^1.1.0"
-    clone "^2.1.2"
-    ember-cli-version-checker "^2.1.2"
-    ensure-posix-path "^1.0.2"
     semver "^5.5.0"
 
 ember-cli-broccoli-sane-watcher@^2.0.4:
@@ -7894,6 +7874,14 @@ mute-stream@0.0.7:
 najax@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/najax/-/najax-1.0.3.tgz#11145f4d910446ea661d8ab7fcef53f6ad164ae5"
+  dependencies:
+    jquery-deferred "^0.3.0"
+    lodash.defaultsdeep "^4.6.0"
+    qs "^6.2.0"
+
+najax@^1.0.3:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/najax/-/najax-1.0.4.tgz#63fd8dbf15d18f24dc895b3a16fec66c136b8084"
   dependencies:
     jquery-deferred "^0.3.0"
     lodash.defaultsdeep "^4.6.0"
