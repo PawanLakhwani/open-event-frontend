@@ -3741,27 +3741,6 @@ ember-cli-babel@6.12.0, ember-cli-babel@^5.0.0, ember-cli-babel@^5.1.5, ember-cl
     ember-cli-version-checker "^2.1.2"
     semver "^5.5.0"
 
-ember-cli-babel@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.1.0.tgz#6517e247e8408f94b825bf41ea41ea32273ac299"
-  dependencies:
-    "@babel/core" "^7.0.0"
-    "@babel/plugin-transform-modules-amd" "^7.0.0"
-    "@babel/polyfill" "^7.0.0"
-    "@babel/preset-env" "^7.0.0"
-    amd-name-resolver "1.2.0"
-    babel-plugin-debug-macros "^0.2.0-beta.6"
-    babel-plugin-ember-modules-api-polyfill "^2.3.2"
-    babel-plugin-module-resolver "^3.1.1"
-    broccoli-babel-transpiler "^7.0.0"
-    broccoli-debug "^0.6.4"
-    broccoli-funnel "^2.0.1"
-    broccoli-source "^1.1.0"
-    clone "^2.1.2"
-    ember-cli-version-checker "^2.1.2"
-    ensure-posix-path "^1.0.2"
-    semver "^5.5.0"
-
 ember-cli-broccoli-sane-watcher@^2.0.4:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ember-cli-broccoli-sane-watcher/-/ember-cli-broccoli-sane-watcher-2.1.1.tgz#1687adada9022de26053fba833dc7dd10f03dd08"
@@ -8433,22 +8412,15 @@ path-type@^1.0.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
-paypal-braintree-web-client@^3:
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/paypal-braintree-web-client/-/paypal-braintree-web-client-3.0.6.tgz#e34a4e24041b81e365951b94484348e5769cb765"
-  dependencies:
-    zalgo-promise "^1.0.22"
-
-paypal-checkout@^4.0.209:
-  version "4.0.209"
-  resolved "https://registry.yarnpkg.com/paypal-checkout/-/paypal-checkout-4.0.209.tgz#92357f54eb43c1a41eafd249af14d0f5962a5f95"
+paypal-checkout@^4.0.218:
+  version "4.0.218"
+  resolved "https://registry.yarnpkg.com/paypal-checkout/-/paypal-checkout-4.0.218.tgz#fa6e2ca3827ee7e782e3bf8c4c933bad17886831"
   dependencies:
     Base64 "^1.0.0"
     beaver-logger "^3.0.6"
     bowser "^1.7.1"
     cross-domain-utils "^2.0.1"
     hi-base32 "^0.5.0"
-    paypal-braintree-web-client "^3"
     post-robot "^8.0.0"
     xcomponent "^6.0.0"
     zalgo-promise "^1.0.10"
