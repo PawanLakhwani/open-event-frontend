@@ -3723,7 +3723,7 @@ ember-cli-autoprefixer@0.8.1:
     broccoli-autoprefixer "^5.0.0"
     lodash "^4.0.0"
 
-ember-cli-babel@6.12.0, ember-cli-babel@^5.0.0, ember-cli-babel@^5.1.5, ember-cli-babel@^5.1.6, ember-cli-babel@^5.1.7, ember-cli-babel@^5.2.4, ember-cli-babel@^6.0.0, ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6.1.0, ember-cli-babel@^6.10.0, ember-cli-babel@^6.11.0, ember-cli-babel@^6.14.1, ember-cli-babel@^6.3.0, ember-cli-babel@^6.6.0, ember-cli-babel@^6.7.2, ember-cli-babel@^6.8.0, ember-cli-babel@^6.8.1, ember-cli-babel@^6.8.2, ember-cli-babel@^6.9.0, ember-cli-babel@^7.1.0:
+ember-cli-babel@6.12.0, ember-cli-babel@^5.0.0, ember-cli-babel@^5.1.5, ember-cli-babel@^5.1.6, ember-cli-babel@^5.1.7, ember-cli-babel@^5.2.4, ember-cli-babel@^6.0.0, ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6.1.0, ember-cli-babel@^6.10.0, ember-cli-babel@^6.11.0, ember-cli-babel@^6.14.1, ember-cli-babel@^6.15.0, ember-cli-babel@^6.3.0, ember-cli-babel@^6.6.0, ember-cli-babel@^6.7.2, ember-cli-babel@^6.8.0, ember-cli-babel@^6.8.1, ember-cli-babel@^6.8.2, ember-cli-babel@^6.9.0, ember-cli-babel@^7.1.0:
   version "6.14.1"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-6.14.1.tgz#796339229035910b625593caffbc2683792ada68"
   dependencies:
@@ -3739,27 +3739,6 @@ ember-cli-babel@6.12.0, ember-cli-babel@^5.0.0, ember-cli-babel@^5.1.5, ember-cl
     broccoli-source "^1.1.0"
     clone "^2.0.0"
     ember-cli-version-checker "^2.1.2"
-    semver "^5.5.0"
-
-ember-cli-babel@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.1.0.tgz#6517e247e8408f94b825bf41ea41ea32273ac299"
-  dependencies:
-    "@babel/core" "^7.0.0"
-    "@babel/plugin-transform-modules-amd" "^7.0.0"
-    "@babel/polyfill" "^7.0.0"
-    "@babel/preset-env" "^7.0.0"
-    amd-name-resolver "1.2.0"
-    babel-plugin-debug-macros "^0.2.0-beta.6"
-    babel-plugin-ember-modules-api-polyfill "^2.3.2"
-    babel-plugin-module-resolver "^3.1.1"
-    broccoli-babel-transpiler "^7.0.0"
-    broccoli-debug "^0.6.4"
-    broccoli-funnel "^2.0.1"
-    broccoli-source "^1.1.0"
-    clone "^2.1.2"
-    ember-cli-version-checker "^2.1.2"
-    ensure-posix-path "^1.0.2"
     semver "^5.5.0"
 
 ember-cli-broccoli-sane-watcher@^2.0.4:
@@ -4567,15 +4546,17 @@ ember-invoke-action@^1.5.1:
   dependencies:
     ember-cli-babel "^6.6.0"
 
-ember-l10n@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/ember-l10n/-/ember-l10n-2.0.4.tgz#179c4fb69fd54fabe827cfc1b0ef0ba0c7147aab"
+ember-l10n@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/ember-l10n/-/ember-l10n-2.1.2.tgz#f25d5012aa7eb9c7ac4fd0c8fdd461bbba5deadf"
   dependencies:
-    chalk "^2.3.0"
-    ember-cli-babel "^6.11.0"
-    ember-cli-htmlbars "^2.0.1"
+    chalk "^2.4.1"
+    ember-cli-babel "^6.15.0"
+    ember-cli-htmlbars "^2.0.3"
     ember-get-config "^0.2.4"
-    shelljs "^0.8.1"
+    gettext-parser "^2.0.0"
+    shelljs "^0.8.2"
+    xgettext-template "^3.4.2"
 
 ember-link-action@0.1.2:
   version "0.1.2"
@@ -5825,6 +5806,13 @@ gettext-parser@^1.4.0:
   dependencies:
     encoding "^0.1.12"
     safe-buffer "^5.1.1"
+
+gettext-parser@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/gettext-parser/-/gettext-parser-2.0.0.tgz#c28bb31e61f76f14665dfafbb5c0518cdc1270ed"
+  dependencies:
+    encoding "^0.1.12"
+    safe-buffer "^5.1.2"
 
 gettext-parser@~0.2.0:
   version "0.2.0"
@@ -9494,9 +9482,9 @@ shelljs@^0.6.0:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.6.1.tgz#ec6211bed1920442088fe0f70b2837232ed2c8a8"
 
-shelljs@^0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.8.1.tgz#729e038c413a2254c4078b95ed46e0397154a9f1"
+shelljs@^0.8.2:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.8.2.tgz#345b7df7763f4c2340d584abb532c5f752ca9e35"
   dependencies:
     glob "^7.0.0"
     interpret "^1.0.0"
@@ -10692,6 +10680,20 @@ xgettext-template@^3.4.0:
     gettext-handlebars "^0.7.0"
     gettext-nunjucks "^0.0.2"
     gettext-parser "^1.4.0"
+    gettext-swig "^0.3.0"
+    gettext-volt "^0.2.2"
+    object-assign "^4.1.1"
+    yargs "^6.6.0"
+
+xgettext-template@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/xgettext-template/-/xgettext-template-3.4.2.tgz#f29b9eab1aeb86860e1e31c50df9e4069c003e80"
+  dependencies:
+    async "^2.6.1"
+    gettext-ejs "^0.1.1"
+    gettext-handlebars "^0.7.0"
+    gettext-nunjucks "^0.0.2"
+    gettext-parser "^2.0.0"
     gettext-swig "^0.3.0"
     gettext-volt "^0.2.2"
     object-assign "^4.1.1"
